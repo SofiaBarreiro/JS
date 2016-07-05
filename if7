@@ -1,0 +1,13 @@
+function Mostrar()
+{
+//tomo la edad  
+
+if (edad < 18) {
+	if (estado civil! = "Soltero")
+	alert("es muy pequeño para no ser Soltero");
+	}	
+}
+	console.log
+
+
+}//FIN DE LA FUNCIÓN
