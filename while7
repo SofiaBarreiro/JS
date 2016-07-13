@@ -1,0 +1,20 @@
+function Mostrar()
+{
+
+	var contador=0;
+	var acumulador=0;
+	var respuesta='si';
+	var numero;
+	numero = prompt("ingrese un numero");
+	respuesta = prompt("desea seguir agregando numeros?");
+
+	while(respuesta !="si"){
+		acumulador = acumulador + numero
+
+	}
+
+
+document.getElementById('suma').value=acumulador;
+document.getElementById('promedio').value=acumulador/contador;
+
+}//FIN DE LA FUNCIÓN
