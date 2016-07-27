@@ -1,0 +1,30 @@
+function Mostrar()
+{
+
+	var contador=0;
+	//declarar contadores y variables 
+	
+	var respuesta;
+	var acumulador = 1;
+	var acumuladorDos = 0;
+
+	while(respuesta != "si"){
+	
+	respuesta = prompt("ingrese numeros o escriba si para salir");
+	if(respuesta == "si"){
+		break;
+	}
+	respuesta = parseInt(respuesta);
+	if(respuesta < 0){
+		acumulador *= respuesta;
+	}
+	else{
+		acumuladorDos = acumuladorDos + respuesta;
+	}
+}
+	document.write(acumuladorDos && acumulador);
+
+
+
+
+}//FIN DE LA FUNCIÓN
