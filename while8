@@ -1,0 +1,30 @@
+function Mostrar()
+{
+
+	var contador=0;
+	var positivo=0;
+	var negativo=1;
+	var respuesta;
+	var acumulador = 1;
+	var acumuladorDos = 0
+while(respuesta != "si"){
+	respuesta= prompt("ingrese un numero o escriba si para ver el resultado");
+	if(respuesta == "si"){
+		break;
+	}	
+	respuesta = parseInt(respuesta);
+	if(respuesta <  0){
+		acumulador *= respuesta;
+	}
+	else{
+	acumuladorDos = acumuladorDos +  respuesta;
+	}
+
+
+}
+
+
+document.getElementById('suma').value=acumuladorDos;
+document.getElementById('producto').value=acumulador;
+
+}//FIN DE LA FUNCIÓN
