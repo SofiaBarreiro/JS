@@ -1,0 +1,21 @@
+function Mostrar()
+{
+
+	var contador=0;
+	var acumulador=0;
+	var respuesta='si';
+while(respuesta = "si"){
+	respuesta = prompt("ingrese un numero o escriba si para salir");
+	if(respuesta == "si"){
+		break;
+	}
+	acumulador = acumulador + respuesta;
+	contador ++;
+
+
+}
+
+document.getElementById('suma').value=acumulador;
+document.getElementById('promedio').value=acumulador/contador;
+
+}//FIN DE LA FUNCIÓN
