@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int x;
+int y;
+int z;
+int maximo;
+int main()
+
+{
+    printf("Hello world!\n");
+    printf("ingrese el primer numero: ");
+    scanf("%d", &x);
+    printf("ingrese el segundo numero: ");
+    scanf("%d", &y);
+    printf("ingrese el tercer numero: ");
+    scanf("%d", &z);
+    printf("el maximo es %d", maximo);
+
+
+    return 0;
+}
+
+
+int maximun (int x, int y, int z)
+{
+if(x >=  y)
+{
+    maximo = x;
+}
+else{
+    if (z >= x)
+    {  maximo = z;
+
+    }
+    else{
+        maximo = y;
+    }
+    }
+    return maximo;
+}
+
