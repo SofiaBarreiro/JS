@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("Hello world!\n");
+    return 0;
+}
+//hacer una funcion que se llame validarRango(int);
+//que recibe un entero que es el numero a vaklidar y retorna un entero, que sea entre 0 y 500)
+//retorna 1 si es valida y retorna 0 si no es valido
+//
+
+int numero;
+
+printf("ingrese un numero entero entre 0 y 500");
+scanf("%d", numero);
+
+int validarRango(intX);
+{    
+if(x < 0 || x > 500 ){
+        return 0;
+
+}
+else{
+    return 1;
+}
+}// ingresar las llaves para cerrar la funcion
+
+
+
+//ejercicio en clase
+
+int valirdarRango (int x)
+    {
+        
+    int rta = 1; // ya estoy asumiendo que esrta debtro del rango, si es falso esta fuera de rango
+        
+     if(x < 0 || x > 500)
+     {
+         rta = 0;
+     }
+     
+    }
