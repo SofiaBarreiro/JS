@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //printf("Hello world!\n");
+
+    int i= 0;
+    char array[5];// array de caracteres
+    for(i=0; i< 5; i++)
+    {
+        printf("ingrese un caracter: ");
+        fflush(stdin);
+        scanf("%c", &array[i]);
+        //para mostar un printf tendriamos que hacer un for igual con prinft("%c" array[i])//%c es para caracteres!!!
+
+
+    }
+    for(i=0; i< 5; i++)
+    {
+    printf("%c", array[i]);
+    //se usa para guardar cadenas tambien por ej un nombre
+    //se gaurda del maximo de letras que puede tener mas 1, por ej puede ser 16
+    //char[16];
+
+
+    }//
+
+
+
+            return 0;
+}
