@@ -1,0 +1,36 @@
+printf("\n Bienvenidos a la Calculadora");
+printf("\nA. Ingrese el primer numero");
+printf("\nB. Ingrese el segundo numero");
+printf("\n Operaciones");
+printf("\n1. Suma");
+printf("\n2. Resta");
+printf("\n3. Division");
+printf("\n4. Multiplicacion");
+printf("\n5. Division");
+printf("\n6. Factorial");
+
+
+
+switch(calculadora){
+case "a": "Ingrese numero"
+
+printf("\n ingrese primer numero");
+scanf("%f", &x);
+
+break;
+
+case "b": "Ingrese numero"
+
+printf("\n ingrese segundo numero");
+scanf("%f", &y);
+
+break;
+
+case "1": "Sumar"
+
+printf("\n sumar dos numeros");
+suma = x + y;
+printf("\n Su respuesta es: %f", &suma);
+
+break;
+
