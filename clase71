@@ -1,0 +1,83 @@
+https://github.com/sofiadb/sofiabarreiro/new/maste
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+
+int main()
+
+{
+int legajo [5][10];
+char nombre [5][20];
+
+
+    for(int i=0; i<5; i++)
+    {
+    printf("\n Ingrese su nro de legajo: ");
+    
+    scanf("%d", legajo[i]); 
+
+    }
+    for(int i=0; i<5; i++)
+    {
+
+    printf("\n Su numero de legajo es:  %d", legajo[i]);
+
+    }
+
+
+    for(int i=0; i<5; i++)
+    {
+    printf("\n Ingrese su nombre: ");
+    gets(nombre[i]);
+
+    }
+    for(int i=0; i<5; i++)
+    {
+    printf("\n Su nombre es: %s", nombre[i]);
+    }
+
+    char auxSexo;
+
+    for (int i=0; i<5; i++)
+    {
+
+        printf("\n Ingrese 'm' para masculino y 'f' para femenino: ");
+        scanf("%c", &auxSexo);
+        if(auxSexo == 'm' || auxSexo == 'f')
+        {
+            printf("\n Su sexo es:  %c", &auxSexo);
+        }
+
+    }
+
+
+
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//un array es una cadena de caracterrd
+//el string tiene que tener la extension suficiente para que entren las palabras.
+//un array permite comparar y ordenar valores
+//algorito de burbujeo, al detectar que hay dos cosas que son iguales, se comparan con un if(validar), se hace un swap, una variable auxiliar
+//ordenamientos de multiple criterio necesito una funcion que haga un swap
+//array de nombre apellido notas legajo sexo
+//pedir al usuario los datos y despues trabajar en el ordenamiento
+
+
